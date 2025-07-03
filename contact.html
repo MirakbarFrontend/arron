@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Me</title>
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- AOS -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	</head>
+	<body>
+		<!-- Site-header -->
+		<header class="site-header" data-aos="fade-down-right">
+			<div class="container site-header__container">
+				<img class="site-header__img" src="imgs/site-header/aaronn-logo.svg" alt="aaronn-logo" width="125" height="22" />
+				<div class="site-header__info">
+					<ul class="site-header__list">
+						<li class="site-header__list-item">
+							<a href="/">Home</a>
+						</li>
+						<li class="site-header__list-item">
+							<a href="aboutMe.html" target="_blank">About me</a>
+						</li>
+						<li class="site-header__list-item">
+							<a href="works.html" target="_blank">My works</a>
+						</li>
+					</ul>
+					<button class="all-btn">Contact</button>
+				</div>
+			</div>
+		</header>
+
+		<div class="contact">
+			<div class="container">
+				<h2 class="contact__title">Contact Me</h2>
+				<p class="contact__text">For Any Project Knock Us</p>
+				<div class="contact__line"></div>
+			</div>
+		</div>
+		<div class="get-in">
+			<div class="container get-in__container">
+				<h2 class="get-in__title">Get in Touch With Us</h2>
+
+				<form class="contact-form">
+					<label for="name">NAME</label>
+					<input type="text" id="name" name="name" />
+
+					<label for="subject">SUBJECT</label>
+					<input type="text" id="subject" name="subject" />
+
+					<label for="message">MESSAGE</label>
+					<textarea id="message" name="message" rows="3"></textarea>
+
+					<button type="submit">SEND</button>
+				</form>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<section class="site-footer" data-aos="fade-up" data-aos-duration="1000">
+			<div class="container">
+				<div class="site-footer__wrapper" data-aos="fade-down" data-aos-delay="200">
+					<h4 class="site-footer__title">Get in Touch With Us</h4>
+					<a class="site-footer__link" href="http://aaronn.de/en/">info@aaronn.com</a>
+				</div>
+
+				<div class="site-footer__inner" data-aos="fade-up" data-aos-delay="400">
+					<img src="imgs/site-footer/site-footer-img.png" alt="logo" width="241" height="43" />
+					<div class="site-footer__flex">
+						<h5>Street Avenue 21, CA</h5>
+						<span
+							>0-8-00-888- <br />
+							000</span
+						>
+					</div>
+					<img src="imgs/site-footer/social-icons.png" alt="social icons" />
+				</div>
+
+				<hr />
+				<p class="copyright">© 2023. Ideapeel. All rights reserved.</p>
+			</div>
+		</section>
+
+		<!-- JS -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>
